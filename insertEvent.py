@@ -56,7 +56,5 @@ event = {
     ],
   },
 }
-
 eventInsert = service.events().insert(calendarId=calId, body=event).execute()
-
 pprint.pprint(eventInsert)
